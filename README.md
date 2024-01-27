@@ -1,5 +1,5 @@
 # React Calculator App
-
+### [link to live site](https://chiloanerk.github.io/calculator/)
 A simple calculator app built using React for performing basic arithmetic operations.
 
 ## Table of Contents

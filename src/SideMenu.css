@@ -1,0 +1,62 @@
+.sideMenu {
+    top: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    padding-top: 60px;
+    background: linear-gradient(to bottom, #8d53f3, rgba(246, 190, 119, 0.85));
+    height: 100%;
+    width: 30%;
+    display: none;
+    transition: display 0.3s;
+    color: white;
+}
+
+.menu-icon {
+    cursor: pointer;
+    margin: 10px 10px;
+    top: 0;
+    position: fixed;
+    transition: transform 0.3s;
+}
+
+.menu-icon.open {
+    margin: 10px 10px;
+    top: 0;
+    right: 0;
+}
+.menu-icon.close {
+    top: 10px;
+    margin-left: 10px;
+}
+
+.menu-icon:hover {
+    transform: scale(1.5);
+}
+
+.sideMenu.active {
+    display: block;
+}
+
+.menu-content {
+    text-align: center;
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 50px;
+    }
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3em;
+    }
+    a:hover {
+        font-size: 1.4em;
+    }
+}
+

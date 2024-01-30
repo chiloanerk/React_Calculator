@@ -6,7 +6,7 @@
     padding-top: 60px;
     background: linear-gradient(to bottom, #8d53f3, rgba(246, 190, 119, 0.85));
     height: 100%;
-    width: 30%;
+    width: 50%;
     display: none;
     transition: display 0.3s;
     color: white;
@@ -60,3 +60,30 @@
     }
 }
 
+/* Extra Small Devices (phones) */
+@media screen and (max-width: 575px) {
+    .sideMenu {
+        width: 50%;
+    }
+}
+
+/* Small Devices (phones) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .sideMenu {
+        width: 40%;
+    }
+}
+
+/* Medium Devices (tablets) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .sideMenu {
+        width: 30%;
+    }
+}
+
+/* Large Devices (small desktops) */
+@media screen and (min-width: 992px) {
+    .sideMenu {
+        width: 20%;
+    }
+}
